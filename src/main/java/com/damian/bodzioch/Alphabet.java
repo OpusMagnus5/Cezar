@@ -3,10 +3,10 @@ package com.damian.bodzioch;
 import java.util.ArrayList;
 
 public class Alphabet {
-    public ArrayList<Character> letters = new ArrayList<>();
+    public final ArrayList<Character> letters = new ArrayList<>();
 
 
-    private static Alphabet alphabet = new Alphabet();
+    private static final Alphabet alphabet = new Alphabet();
 
     private Alphabet(){
         for (int i = 65; i <= 90; i++){
